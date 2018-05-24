@@ -5,7 +5,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='unittest-data-provider',
-    version='1.0.1',
+    version='1.0.2',
     description='PHPUnit-like @dataprovider decorator for unittest',
     author='drm from melp.nl, packaged for reuse by James Pic',
     author_email='jamespic@gmail.com',
