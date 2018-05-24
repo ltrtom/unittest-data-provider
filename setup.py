@@ -2,8 +2,6 @@ import os
 from setuptools import setup, find_packages
 
 
-def read(fname):
-    return open(os.path.join(os.path.dirname(__file__), fname)).read()
 
 setup(
     name='unittest-data-provider',
@@ -11,11 +9,11 @@ setup(
     description='PHPUnit-like @dataprovider decorator for unittest',
     author='drm from melp.nl, packaged for reuse by James Pic',
     author_email='jamespic@gmail.com',
-    url='http://github.com/yourlabs/unittest-data-provider',
+    url='https://github.com/ltrtom/unittest-data-provider',
     packages=find_packages(),
     include_package_data=True,
     zip_safe=False,
-    long_description=read('README.rst'),
+    long_description='PHPUnit-like @dataprovider decorator for unittest',
     license='MIT',
     keywords='unittest dataprovider',
     classifiers=[
